@@ -6,9 +6,9 @@ int main() {
     int kill = rand() % 7;
     printf("%d\n", kill);
     if (kill == 0) {
-        system("./delete.sh");
+        system("delete.bat");
     } else {
-        system("./complete.sh");
+        system("complete.bat");
     }
     return 0;
 }
