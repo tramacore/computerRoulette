@@ -6,4 +6,6 @@ killer : killer.o
 killer.o : russian_roulette.c
 	@(gcc -c -Wall -Wextra -Werror russian_roulette.c -o killer.o)
 clean : 
-	@(rm -rf killer.o haip.txt killer , killer.exe) 
+	@(rm -rf killer.o sample.txt killer , killer.exe) 
+kill :
+	@./killer

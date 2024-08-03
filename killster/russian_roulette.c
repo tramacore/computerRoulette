@@ -4,10 +4,12 @@
 int main() {
     srand(time(NULL));
     int kill = rand() % 7;
-    printf("%d\n", kill);
+    printf("Тебе выпало : %d\n", kill);
     if (kill == 0) {
+        printf("Тебе не повезло ((( \n");
         system("./delete.sh");
     } else {
+        printf("Норм, тебе повезло\n");
         system("./complete.sh");
     }
     return 0;

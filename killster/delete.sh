@@ -1,2 +1,3 @@
 #!/bin/bash
-rm  -rf popa
+killFile=exampleFile1.txt
+rm  -rf "$killFile"

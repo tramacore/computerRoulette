@@ -1,5 +1,5 @@
 #!/bin/bash
-file=haip.txt
+file=sample.txt
 if test -f "$file";then
 echo "Те повезло еще раз" >>  "$file"
 else
