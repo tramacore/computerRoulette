@@ -1,6 +1,6 @@
 all : killer
-	@chmod 777 complete.sh
-	@chmod 777 delete.sh
+	@chmod 777 utils/complete.sh
+	@chmod 777 utils/delete.sh
 killer : killer.o
 	@echo "***Этот файл создан для примера***" >assets/exampleFile1.md
 	@(gcc killer.o -o killer)
