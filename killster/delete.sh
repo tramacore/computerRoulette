@@ -1,3 +1,3 @@
 #!/bin/bash
-killFile=exampleFile1.txt
+killFile=assets/exampleFile1.md
 rm  -rf "$killFile"
